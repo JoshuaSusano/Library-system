@@ -1,5 +1,5 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom';
 const navbar = () => {
   return (
 <nav className="flex justify-between items-center p-3 bg-white shadow-md ">
