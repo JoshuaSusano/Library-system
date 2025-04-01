@@ -1,24 +1,20 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // To navigate after login
+import { useNavigate } from 'react-router-dom';
 import ccbuild from '../assets/logimg.png';
 import logo from '../assets/cclogo.png';
 
 const Login = () => {
   const [studentID, setStudentID] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate(); // Hook to navigate programmatically
-
+  const navigate = useNavigate(); 
   const handleLogin = (e) => {
     e.preventDefault();
-    
-    // You can replace this with your actual login logic
-    if (studentID === 'student123' && password === 'password123') {
-      navigate('/landing'); // Redirect to landing page after successful login
+    if (studentID === '123' && password === '123') {
+      navigate('/landing'); 
     } else {
       alert('Invalid Student ID or Password');
     }
-  };
-
+  }; 
   return (
     <div className="flex min-h-screen items-center justify-center bg-gray-100 p-6">
       <div className="hidden md:flex w-2/6 h-[450px]">

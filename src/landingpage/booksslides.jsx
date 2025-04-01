@@ -22,7 +22,7 @@ const BookSlides = () => {
   ];
   const repeatedCards = [...cards, ...cards]; 
   return (
-    <div className="p-10 mx-[30px] overflow-hidden relative">
+    <div className="p-10 mx-[30px] overflow-hidden relative ">
       <h1 className="text-2xl font-bold mb-2">Complete Books</h1>
       <p className="text-gray-600 mb-5">These are the best books to read to gain knowledge.</p>
 

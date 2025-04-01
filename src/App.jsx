@@ -5,11 +5,10 @@ import LoginPage from "./loginpage/login";
 
 function App() {
   return (
-    <Router basename="/Library-system">  {/* Set basename if your app is under a subpath */}
+    <Router basename="/Library-system">  
       <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/login" element={<LoginPage />} />
-        {/* Add more routes if needed */}
+      <Route path="/" element={<LoginPage />} />
+        <Route path="/landing" element={<LandingPage />} />
       </Routes>
     </Router>
   );
