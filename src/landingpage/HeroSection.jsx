@@ -5,7 +5,7 @@ import Algebra from '../landingpage/algebra.jpg';
 import Novel from '../landingpage/Novel.jpg';
 const HeroSection = () => {
   return (
-    <section className="relative flex flex-col md:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-20 bg-gradient-to-b from-[#b79891] to-[#e8d6cc]">
+    <section className="relative flex flex-col md:flex-row items-center justify-between px-6 md:px-12 lg:px-20 py-20 bg-gradient-to-b from-[#b79891] to-[#e8d6cc] ">
     <div className="max-w-md text-center md:text-left space-y-4">
       <h1 className="text-4xl md:text-5xl font-bold leading-tight text-white">
         Discover the Best <span className="text-white"> Library's Books</span>
